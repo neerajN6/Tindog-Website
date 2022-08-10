@@ -1,0 +1,193 @@
+body, h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat';
+}
+
+body{
+  text-align: center;
+}
+
+h1, .cta-desc {
+  color: #fff;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+p {
+  color: #8F8F8F;
+}
+
+.coloured-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+  color: #000;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+}
+
+/* Title Section */
+#title {
+  text-align: left;
+}
+
+.title-image-div {
+  position: relative;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features */
+#features {
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-col {
+  padding: 0 3%;
+}
+
+.feature-img {
+  width: 20%;
+  color: #EF8172;
+  margin: 5% 0 5% 0;
+}
+
+.feature-img:hover {
+  color: #FF4C68;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #EF8172;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press Section */
+#press {
+  background-color: #EF8172;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/* Call To Action Section */
+#cta {
+  padding: 8% 20%;
+}
+
+/* Footer Section */
+#footer {
+  padding: 5% 20%;
+}
+
+.contact-img {
+  padding: 20px 10px;
+}
+
+/* Media Query */
+@media (max-width: 1175px) {
+  h1, .cta-desc{
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .title-image {
+    transform: rotate(0);
+  }
+}
+
+@media (max-width: 1023px) {
+  h1, .cta-desc {
+    font-size: 2.9rem;
+  }
+}
+
+@media (max-width: 992px) {
+  #title {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 2.3rem;
+  }
+
+  .cta-desc {
+    font-size: 2.5rem;
+  }
+
+  .title-image {
+    position: static;
+  }
+}
